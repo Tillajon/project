@@ -1,0 +1,170 @@
+.background__main {
+  background: whitesmoke;
+  height: 2700px;
+}
+
+.music__wrapper {
+  padding-top: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title__music {
+  h5 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: #7e7e7e;
+  }
+  h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 108%;
+    text-align: center;
+    color: #000;
+  }
+}
+
+.music__bg {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.music_order {
+  max-width: 1180px;
+  height: 1000px;
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 30px;
+  h3 {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+.music__list {
+  padding-top: 40px;
+  h4 {
+    margin-left: 50px;
+    padding-bottom: 15px;
+  }
+  li {
+    list-style: disc;
+    padding-bottom: 10px;
+    margin-left: 75px;
+  }
+}
+
+.music__list2 {
+  padding-top: 40px;
+  h4 {
+    margin-left: 50px;
+    padding-bottom: 15px;
+  }
+  li {
+    max-width: 800px;
+    list-style: decimal;
+    padding-bottom: 10px;
+    margin-left: 75px;
+  }
+}
+
+.title_p {
+  padding-top: 10px;
+  max-width: 870px;
+  margin-left: 50px;
+}
+
+.title__link {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  margin-left: 50px;
+  a {
+    padding-bottom: 15px;
+  }
+  span {
+    text-decoration: underline;
+    color: #00d36d;
+  }
+}
+
+.title_text {
+  padding-top: 65px;
+  max-width: 950px;
+  margin-left: 50px;
+  span {
+    color: #00d36d;
+  }
+}
+
+.map__wrapper {
+  padding-top: 70px;
+  margin-left: 10px;
+}
+
+.map__content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  h3 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 129%;
+    color: #000;
+  }
+}
+
+.map__list {
+  display: flex;
+  padding-top: 50px;
+  gap: 20px;
+  :hover {
+    border: 1px solid #00d36d;
+    h3,
+    a {
+      border: 0 white;
+    }
+  }
+  li {
+    padding: 17px 60px 0 ;
+    // padding-top: 17px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    h3 {
+      padding-bottom: 5px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #000;
+    }
+    a {
+      padding-bottom: 10px;
+      color: #00d36d;
+      text-decoration: underline;
+    }
+    img {
+      position: absolute;
+      display: flex;
+      margin-left: -50px;
+      margin-top: 5px;
+    }
+  }
+}
+
+.map__link {
+  display: flex;
+  padding-top: 10px;
+  margin-left: 150px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #000;
+}
+
+iframe {
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
